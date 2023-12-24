@@ -11,8 +11,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://deploy-mern.vercel.app"],
-    methods: "*",
+    origin: ["https://workout-buddy-frontend-himanshu-aroras-projects.vercel.app"],
+    methods: ["POST", "GET", "PATCH", "DELETE"],
     credentials: true,
   })
 );
